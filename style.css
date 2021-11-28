@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, #FF7D7D, #F4DD7D, #A8CF45);
+    background-attachment: fixed;
+    font: normal 1.5rem 'Montserrat';
+    color: #0D0D0D;
+
+}
+
+.container {
+    /* sempre definir o tamanho do elemento, senão o aling-content não funciona */
+    width: 100vw;
+    height: 90vh;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content:center;
+
+}
+
+.content {
+    
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0.356);
+
+    width: 60%
+    
+ 
+
+}
+
+h1 {
+    font-size: clamp(28px, 3vw, 48px);
+}
+
+h2 {
+    font-size: clamp(20px, 2vw, 38px);
+    padding: 1rem 0rem;
+}
+
+p {
+    font-size: clamp(16px, 1.5vw, 30px);
+}
+
+footer {
+    border-top: 2px dashed white;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #0D0D0D;
+}
